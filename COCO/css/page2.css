@@ -1,0 +1,200 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+header{
+	background-color: #9932CC;
+	font-family: 'YuGothic';
+	color: #FAFAFA;
+}
+.clearfix{
+	width: 1100px;
+	margin: 0 auto;
+}
+nav{
+	float: none;
+}
+
+li{
+	float: left;
+	list-style: none;
+	padding: 0 30px;
+	font-size: 20px;
+	color: #FAFAFA;
+	line-height: 50px;
+}
+a{
+	text-decoration: none;
+	color: #FAFAFA;
+}
+body{
+	background-color: #FAFAFA;
+	color: #696969;
+	font-family: 'YuGothic';
+}
+	h2{
+		width: 100%;
+		margin: 0 auto;
+		padding-top: 50px;
+		font-size: 200%;
+		color: #8B4513;
+		text-align: center;
+	}
+	.shoukai{
+		width: 100%;
+		margin: 0 auto;
+		padding-top: 20px;
+		padding-bottom: 30px;
+		text-align: center;
+	}
+	.gaikan{
+		background-image: url(img2/uketsuke.jpg);
+		width: 600px;
+		height: 300px;
+		margin: 0 auto;
+		background-size:cover;
+	}
+	.gaikan2{
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.room{
+		background-image: url(img2/room.jpg);
+		width: 600px;
+		height: 300px;
+		margin: 0 auto;
+		background-size:cover;
+	}
+	.room2{
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.baby{
+		background-image: url(img/baby.jpg);
+		width: 600px;
+		height: 300px;
+		margin: 0 auto;
+		background-size:cover;
+	}
+	.baby2{
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.staff{
+		background-image: url(img2/staff.jpg);
+		width: 600px;
+		height: 300px;
+		margin: 0 auto;
+		background-size:cover;
+	}
+	.staff2{
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.staffshoukai::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.staffshoukai{
+	width: 610px;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border-radius: 20px;
+	background-color: #E6E6FA;
+}
+.clear::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.name{
+	width: 300px;
+	height: 200px;
+	margin:0 auto;
+	padding-top: 80px;
+	float: left;
+	font-size: 120%;
+	text-align: center;
+	color:#696969;
+}
+
+.hiroki{
+	background-image:url(img2/hiroki.jpg);
+	width: 200px;
+	height: 250px;
+	margin: 0 auto;
+	float: left;
+	border-radius:20px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+	.jikoshoukai{
+		width: 500px;
+		margin-left:20px;
+		float: left;
+		color: #696969;
+		font-size: 110%;
+	}
+	.iwasaki{
+	background-image:url(img/iwasaki.jpg);
+	width: 200px;
+	height: 250px;
+	margin: 0 auto;
+	float:left;
+	border-radius:20px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.sakurai{
+background-image:url(img/sakurai.jpg);
+	width: 200px;
+	height: 250px;
+	margin: 0 auto;
+	float: left;
+	border-radius:20px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+	.kidokoro{
+	background-image:url(img/kidokoro.jpg);
+	width: 200px;
+	height: 250px;
+	margin: 0 auto;
+	float: left;
+	border-radius:20px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+	.address{
+		width: 100%;
+		margin-top:50px;
+		padding-top: 50px;
+		text-align: center;
+		background-color: #D8BFD8;
+	}
+	footer{
+		width: 100%;
+		margin: 0 auto;
+		text-align: right;
+		color:#FAFAFA;
+		background-color: #9932CC;
+	}
